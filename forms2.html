@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="forms2.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+       <h1> Formulario para contato</h1>
+    </header>
+    <form action="index.html">
+        <label for="nomecompleto">Nome Completo</label>
+        <input type="text" id="nomecompleto" name="nomecompleto" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" required>
+
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" id="senha" required>
+
+        <label for="confirmação">Confirmação da senha</label>
+        <input type="password" name="confirmação" id="confirmação" required>
+
+        <label for="data">Data de nascimento</label>
+        <input type="date" name="data" id="data" required>
+
+        <label for="sexo">Sexo</label>
+        <select name="sexo" id="sexo" required>
+            <option value="Masculino">Masculino</option>
+            <option value="Masculino">Feminino</option>
+        </select>
+
+        <label for="estadocivil">Estado civil</label>
+        <select name="estadocivil" id="estadocivi" required>
+            <option value="Solteiro">Solteiro</option>
+            <option value="Casado">Casado</option>
+            <option value="Divorciado">Divorciado</option>
+            <option value="Viuvo">Viuvo</option>
+        </select>
+
+        <label for="Cidade">Cidade</label>
+        <input type="text" name="Cidade" id="Cidade" required>
+
+        <label for="estado">Estado</label>
+        <select id="estado" name="estado" required>
+            <option value="">Selecione o estado</option>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+          </select>
+
+        <label for="Pais">País</label>
+        <input type="text" name="Pais" id="Pais" required>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
